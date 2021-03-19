@@ -53,10 +53,14 @@ The  steps invovled in the pipeline are as follows:
 
 
 ## 3. Potential shortcomings with your current pipeline
-
-
-.
+* The algorithm does not handle sharp curves
+* The algorithm is not great as handling poor road markings and missing lines
+* Road glare not part of the lane lines can confuse algorithm
 
 
 ## 4. Suggest possible improvements to your pipeline
+* Improve handling poor road markings and missing lines
+* Adapt algorithm to handle curves and bends
+* Adapt algorithm to handle lighting issues and glare
+
 
